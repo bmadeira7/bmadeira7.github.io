@@ -129,7 +129,7 @@ body {
     float: left;
     width: 100%;
     max-width: 960px;
-    padding: 30px;
+    padding: 28px;
     margin: 0 0 40px;
     background: #fff;
     border: 1px solid #ddd;
@@ -141,7 +141,7 @@ body {
     position: relative;
     float: left;
     width: 274px;
-    margin: 20px 0 25px;
+    margin: 20px 12px 25px;
     overflow: auto;
   }
   
@@ -152,15 +152,19 @@ body {
   .work img {
     width: 100%;
     border: 0 none;
-    opacity: 0.8;
+}
+.work img:hover {
+    opacity: 0.6;
+
   }
   
   .work h3 {
     position: absolute;
-    bottom: 20px;
+    bottom: 11px;
     width: 100%;
-    padding: 1px;
+    padding: 6px;
     margin-bottom: 0;
+    
     font-weight: 300;
     line-height: 30px;
     color: #fff;
@@ -178,6 +182,8 @@ body {
     margin-right: 25px;
     border: 6px solid #205289;
   }
+  
+  
   
   /* contact page */
   

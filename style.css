@@ -117,6 +117,14 @@ body {
     line-height: 22px;
     border-bottom: 2px solid #eee;
   }
+              .auth-image {
+                float: left;
+                width: 200px;
+                height: auto;
+                margin-top: 10px;
+                margin-right: 25px;
+                border: 6px double #205289;
+              }
   
   /* main */
   
@@ -153,6 +161,7 @@ body {
     width: 100%;
     border: 0 none;
 }
+
 .work img:hover {
     opacity: 0.6;
 
@@ -177,15 +186,11 @@ body {
   .triviaGame h3 {
     bottom: 4px;
   }
-  .auth-image {
-    float: left;
-    width: 200px;
-    height: auto;
-    margin-top: 10px;
-    margin-right: 25px;
-    border: 6px solid #205289;
+
+  .cryptoGiphy {
+    bottom: -24px;
   }
-  
+
   
   
   /* contact page */

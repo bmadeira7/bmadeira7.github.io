@@ -1,10 +1,10 @@
 body {
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
     line-height: 34px;
-    color: #949ba1;
+    color: #d3d0d0;
     /* background: url("images/gravel.png"); */
-    background-color: #192026;
+    background-color: #529fe2;
   }
   
   * {
@@ -34,9 +34,9 @@ body {
   h1,
   h2,
   h3 {
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight: 700;
-    color: #949ba1;
+    color: whitesmoke;
   }
   
   h1 {
@@ -60,7 +60,7 @@ body {
     margin: 0 0 30px;
     overflow: auto;
     color: #fff;
-    background:#071108;
+    background:rgb(22, 74, 245);
     border-bottom: 8px solid #364652;
   }
   
@@ -68,15 +68,15 @@ body {
     float: left;
     width: 250px;
     height: 90px;
-    font-family: Georgia, Times, "Times New Roman", serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 30px;
     font-weight: 700;
     line-height: 90px;
-    color:#949ba1;
+    color:#ffffff;
     text-align: center;
     text-decoration: none;
-    background: #5D6560;
-    
+    background: rgb(0, 0, 0);
+    border: 1.5px solid #529fe2;
   }
   
   nav {
@@ -111,7 +111,7 @@ body {
     color: #fff;
     color: #ccc;
     text-align: center;
-    background:#071108;
+    background:rgb(22, 74, 245);
     border-top: 8px solid #364652;
     height: 50px;
   }
@@ -134,7 +134,7 @@ body {
   /* main */
   
   #main-container {
-    padding-top: 130px;
+    padding-top: 180px;
     min-height: calc(100vh - 70px);
   }
   
@@ -144,8 +144,9 @@ body {
     max-width: 960px;
     padding: 28px;
     margin: 0 0 40px;
-    background: #5D6560;
+    background:rgb(45, 58, 243);
     border: 1px solid #ddd;
+    border-radius: 10px;
   }
   
   /* portfolio page */
@@ -183,7 +184,7 @@ body {
     line-height: 30px;
     color: #fff;
     text-align: center;
-    background: #071108;
+    background: #000000;
     border-bottom: 0;
     
   }
@@ -199,7 +200,12 @@ body {
  
   
   /* contact page */
-  
+  .cardBrian{
+    background-color: #529fe2;
+  }
+  .emailLink{
+    color:black;
+  }
   #contact-form ul {
     margin-bottom: 20px;
   }
@@ -234,7 +240,7 @@ body {
     font-size: 18px;
     color: #fff;
     cursor: pointer;
-    background: #787979;
+    background: #f02929;
     border: 2px solid black;
     border-radius: 5px;
   }

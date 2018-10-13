@@ -153,15 +153,13 @@ body {
   
   .work {
     position: relative;
-    float: left;
-    width: 274px;
-    margin: 20px 12px 25px;
+    float: left; 
+    width: 200px;
+    margin: 10px 10px 10px;
     overflow: auto;
   }
   
-  .work:nth-child(even) {
-    margin-right: 40px;
-  }
+  
   
   .work img {
     width: 100%;
@@ -189,13 +187,13 @@ body {
     
   }
   
-  .triviaGame h3 {
+   .triviaGame h3 {
     bottom: 4px;
   }
 
-  .cryptoGiphy {
+  /* .cryptoGiphy {
     bottom: -24px;
-  }
+  }  */
 
  
   

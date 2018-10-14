@@ -171,7 +171,7 @@ body {
   
   .work img {
     width: 100%;
-    border: 0 none;
+    border: 2px solid white;
 }
 
 .work img:hover {
@@ -256,7 +256,7 @@ body {
     border-radius: 5px;
   }
 
-
+/* RESPONSIVE media */
 
   @media screen and (max-width: 980px){
     body {
@@ -326,5 +326,15 @@ body {
       }
       .auth-image {
           width: 100%;
+      }
+      .work {
+        width: 80px;
+      }
+       h3 {
+        height: 10px;
+        font-size: 9px;
+        /* bottom: 0;
+        padding: 0; */
+        position: relative;
       }
   }

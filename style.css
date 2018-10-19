@@ -61,9 +61,10 @@ body {
     margin: 0 0 30px;
     overflow: auto;
     color: #fff;
-    background:rgb(75, 75, 77);
+    background:rgb(0, 0, 0);
     border-bottom: 8px solid #364652;
     border-top: 8px solid #364652;
+    opacity: .93;
   }
   
   #logo {
@@ -115,10 +116,11 @@ body {
     color: #fff;
     color: #ccc;
     text-align: center;
-    background:rgb(75, 75, 77);
+    background:rgb(0, 0, 0);
     border-top: 8px solid #364652;
     border-bottom: 8px solid #364652;
     height: 50px;
+    opacity: .9;
   }
   
   h3, h2 {
@@ -151,7 +153,7 @@ body {
     max-width: 960px;
     padding: 28px;
     margin: 0 0 40px;
-    background:rgb(75, 75, 77);
+    background:rgb(0, 0, 0);
     border: 1px solid #ddd;
     border-radius: 10px;
     opacity: .93;

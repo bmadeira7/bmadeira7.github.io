@@ -3,7 +3,7 @@ body {
   font-size: 18px;
   line-height: 34px;
   color: #d3d0d0;
-  background: url("images/proBgImage.jpg");
+  background: url("images/bwBg1.jpg");
   /* background-color: #c5c9cc; */
 }
 
@@ -135,7 +135,7 @@ h2 {
   background: rgb(0, 0, 0);
   border: 1px solid #ddd;
   border-radius: 30px;
-  opacity: 0.93;
+  opacity: 0.96;
 }
 
 /* portfolio page */

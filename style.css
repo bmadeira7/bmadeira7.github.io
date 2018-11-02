@@ -1,10 +1,10 @@
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18px;
   line-height: 34px;
   color: #d3d0d0;
   background: url("images/bwBg1.jpg");
-  /* background-color: #c5c9cc; */
+ 
 }
 
 * {
@@ -24,6 +24,7 @@ body {
   opacity: 0.93;
   border-bottom: 5px solid #364652;
 }
+
 a {
   color: white;
 }
@@ -44,7 +45,6 @@ p:last-child {
 h1,
 h2,
 h3 {
-  
   font-weight: 400;
   color: whitesmoke;
 }
@@ -61,8 +61,6 @@ h2,
 h3 {
   font-size: 22px;
 }
-
-
 
 nav {
   float: right;
@@ -112,7 +110,7 @@ h2 {
 }
 .auth-image {
   float: left;
-  width: 200px;
+  width: 20%;
   height: auto;
   margin-top: 10px;
   margin-right: 25px;
@@ -121,9 +119,9 @@ h2 {
 
 /* main */
 
-#main-container {
+.main-container {
   margin-top: 210px;
-  min-height: calc(100vh - 70px);
+  min-height: 100%;
 }
 
 .main-section {
@@ -141,11 +139,8 @@ h2 {
 /* portfolio page */
 
 .work {
-  
-  
   width: 200px;
-  margin: 5%;
-  
+  margin: auto;
 }
 
 .work img {
@@ -291,7 +286,7 @@ input[type="submit"] {
     margin-left: 1%;
   }
   .auth-image {
-    width: 100%;
+    width: 20%;
   }
   .work {
     width: 100%;
@@ -299,8 +294,6 @@ input[type="submit"] {
   h3 {
     height: 10px;
     font-size: 14px;
-    /* bottom: 0;
-        padding: 0; */
     position: relative;
   }
 }

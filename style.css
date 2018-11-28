@@ -120,8 +120,8 @@ h2 {
 /* main */
 
 .main-container {
-  margin-top: 210px;
-  min-height: 100%;
+  margin-top: 16%;
+  
 }
 
 .main-section {
@@ -176,6 +176,7 @@ h2 {
 /* CONTACT PAGE */
 .cardBrian {
   background-color: #529fe2;
+  color: black;
 }
 .emailLink {
   color: black;
@@ -234,6 +235,7 @@ input[type="submit"] {
   nav {
     padding-right: 10px;
     text-align: right;
+  
   }
   .main-section {
     width: 70%;
@@ -282,18 +284,41 @@ input[type="submit"] {
     width: 100%;
     text-align: center;
   }
-  #main-container {
+  .main-container {
     margin-left: 1%;
+    margin-top: 35%;
+    margin-bottom: 0%;
+  }
+  .main-section{
+    margin-bottom: 8%;
   }
   .auth-image {
-    width: 20%;
+    width: 40%;
   }
   .work {
     width: 100%;
+  }
+  h1{
+    padding-bottom: 2%;
+    padding-top: 2%;
   }
   h3 {
     height: 10px;
     font-size: 14px;
     position: relative;
   }
+  .jumbotron{
+    height: 15%;
+    margin-bottom: 0%;
+  }
+  .display-4{
+    font-size: 180%;
+    font-weight: 800;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+  }
+  .links{
+    padding-top: 0%;
+  }
+  
 }

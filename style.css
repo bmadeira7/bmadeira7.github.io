@@ -315,6 +315,7 @@ input[type="submit"] {
   .main-section {
     margin-bottom: 8%;
     padding: 2%;
+    margin-top: 16%;
   }
   .auth-image {
     width: 40%;
@@ -348,6 +349,9 @@ input[type="submit"] {
 .navLinks{
   margin-left: 2vw;
   margin-right: 2vw;
+}
+.bio{
+  padding: 0vw 4vw 0vw 4vw;
 }
   /* contact page mobile responsive */
   .card-body {

@@ -84,7 +84,7 @@ nav a:first-child {
 /* footer */
 
 footer {
-  padding: 30px 0;
+  padding: 1vw 0vw 1vw 0vw;
   clear: both;
   font-size: 12px;
   color: #fff;
@@ -93,7 +93,7 @@ footer {
   background: rgb(0, 0, 0);
   border-top: 5px solid #364652;
   border-bottom: 5px solid black;
-  height: 80px;
+  height: 4vw;
   opacity: 0.9;
  
 }
@@ -119,9 +119,25 @@ h2 {
 
 .main-container {
   margin-top: 16%;
+ 
+}
+.main-containerIndex {
+  margin-top: 15%;
+ 
 }
 
 .main-section {
+  float: left;
+  width: 100%;
+  max-width: 960px;
+  padding: 1vw 3vw 1vw 3vw;
+  margin: 0 0 40px;
+  background: rgb(0, 0, 0);
+  border: 1px solid #ddd;
+  border-radius: 30px;
+  opacity: 0.96;
+}
+.main-sectionBIO {
   float: left;
   width: 100%;
   max-width: 960px;
@@ -184,6 +200,7 @@ h2 {
 }
 .pleaseMargin{
 margin-top: 2vw;
+margin-bottom: -6vw;
 }
 .emailLink {
   color: black;
@@ -310,10 +327,21 @@ input[type="submit"] {
   .main-container {
     margin-left: 1%;
     margin-top: 35%;
+    margin-bottom: 2%;
+  }
+  .main-containerIndex {
+    margin-left: 1%;
+    margin-top: 35%;
     margin-bottom: 0%;
+   
   }
   .main-section {
     margin-bottom: 8%;
+    padding: 2%;
+    margin-top: 16%;
+  }
+  .main-sectionBIO {
+    margin-bottom: 21%;
     padding: 2%;
     margin-top: 16%;
   }
@@ -353,6 +381,13 @@ input[type="submit"] {
 }
 .bio{
   padding: 0vw 1vw 0vw 4vw;
+}
+footer{
+  height: 12vw;
+}
+.pleaseMargin {
+  margin-top: 2vw;
+  margin-bottom: -18vw;
 }
   /* contact page mobile responsive */
   .card-body {

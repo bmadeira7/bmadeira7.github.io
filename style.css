@@ -319,6 +319,7 @@ input[type="submit"] {
   }
   .auth-image {
     width: 40%;
+    margin-left: 4vw;
   }
   .work {
     width: 100%;
@@ -351,7 +352,7 @@ input[type="submit"] {
   margin-right: 2vw;
 }
 .bio{
-  padding: 0vw 4vw 0vw 4vw;
+  padding: 0vw 1vw 0vw 4vw;
 }
   /* contact page mobile responsive */
   .card-body {

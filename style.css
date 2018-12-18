@@ -148,6 +148,7 @@ h2 {
   border: 1px solid #ddd;
   border-radius: 30px;
   opacity: 0.96;
+  margin-top: 6%;
 }
 
 .icon {
@@ -347,7 +348,7 @@ input[type="submit"] {
   .main-sectionBIO {
     margin-bottom: 21%;
     padding: 2%;
-    margin-top: 16%;
+    margin-top: 21%;
   }
   .auth-image {
     width: 40%;
